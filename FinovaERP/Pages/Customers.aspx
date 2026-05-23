@@ -1,0 +1,256 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPages/Admin.Master" AutoEventWireup="true" CodeBehind="Customers.aspx.cs" Inherits="FinovaERP.Pages.Customers" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+
+<asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
+
+<style>
+
+    .customer-box {
+        background: #1e293b;
+        padding: 25px;
+        border-radius: 18px;
+        color: white;
+        box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+    }
+
+    .page-title {
+        color: #22c55e;
+        margin-bottom: 25px;
+        font-weight: bold;
+    }
+
+    label {
+        margin-top: 10px;
+        font-weight: 600;
+    }
+
+    .form-control,
+    .form-select {
+        height: 45px;
+    }
+
+</style>
+
+<div class="container-fluid">
+
+    <h2 class="page-title">
+        Customer Management
+    </h2>
+
+    <div class="customer-box">
+
+        <!-- FORM -->
+
+        <div class="row">
+
+            <!-- CUSTOMER NAME -->
+
+            <div class="col-md-4">
+
+                <label>Customer Name</label>
+
+                <asp:TextBox ID="txtCustomerName"
+                    runat="server"
+                    CssClass="form-control">
+                </asp:TextBox>
+
+            </div>
+
+            <!-- EMAIL -->
+
+            <div class="col-md-4">
+
+                <label>Email</label>
+
+                <asp:TextBox ID="txtEmail"
+                    runat="server"
+                    CssClass="form-control">
+                </asp:TextBox>
+
+            </div>
+
+            <!-- MOBILE -->
+
+            <div class="col-md-4">
+
+                <label>Mobile</label>
+
+                <asp:TextBox ID="txtMobile"
+                    runat="server"
+                    CssClass="form-control">
+                </asp:TextBox>
+
+            </div>
+
+            <!-- CITY -->
+
+            <div class="col-md-4">
+
+                <label>City</label>
+
+                <asp:TextBox ID="txtCity"
+                    runat="server"
+                    CssClass="form-control">
+                </asp:TextBox>
+
+            </div>
+
+            <!-- STATE -->
+
+            <div class="col-md-4">
+
+                <label>State</label>
+
+                <asp:TextBox ID="txtState"
+                    runat="server"
+                    CssClass="form-control">
+                </asp:TextBox>
+
+            </div>
+
+            <!-- STATUS -->
+
+            <div class="col-md-4">
+
+                <label>Status</label>
+
+                <asp:DropDownList ID="ddlStatus"
+                    runat="server"
+                    CssClass="form-select">
+
+                    <asp:ListItem Text="Active" Value="Active" />
+                    <asp:ListItem Text="Inactive" Value="Inactive" />
+
+                </asp:DropDownList>
+
+            </div>
+
+            <!-- ADDRESS -->
+
+            <div class="col-md-12">
+
+                <label>Address</label>
+
+                <asp:TextBox ID="txtAddress"
+                    runat="server"
+                    TextMode="MultiLine"
+                    Rows="3"
+                    CssClass="form-control">
+                </asp:TextBox>
+
+            </div>
+
+        </div>
+
+        <br />
+
+        <!-- BUTTONS -->
+
+        <asp:Button ID="btnAdd"
+            runat="server"
+            Text="Add Customer"
+            CssClass="btn btn-success"
+            OnClick="btnAdd_Click" />
+
+        <asp:Button ID="btnReset"
+            runat="server"
+            Text="Reset"
+            CssClass="btn btn-secondary"
+            OnClick="btnReset_Click" />
+
+        <br /><br />
+
+        <!-- SEARCH -->
+
+        <div class="row">
+
+            <div class="col-md-4">
+
+                <asp:TextBox ID="txtSearch"
+                    runat="server"
+                    CssClass="form-control"
+                    placeholder="Search Customer">
+                </asp:TextBox>
+
+            </div>
+
+            <div class="col-md-2">
+
+                <asp:Button ID="btnSearch"
+                    runat="server"
+                    Text="Search"
+                    CssClass="btn btn-primary w-100"
+                    OnClick="btnSearch_Click" />
+
+            </div>
+
+            <div class="col-md-2">
+
+                <asp:Button ID="btnShowAll"
+                    runat="server"
+                    Text="Show All"
+                    CssClass="btn btn-warning w-100"
+                    OnClick="btnShowAll_Click" />
+
+            </div>
+
+        </div>
+
+        <br />
+
+        <!-- GRIDVIEW -->
+
+        <div class="table-responsive">
+
+            <asp:GridView ID="gvCustomers"
+                runat="server"
+                AutoGenerateColumns="False"
+                CssClass="table table-bordered table-dark table-hover"
+                HeaderStyle-CssClass="table-primary"
+                DataKeyNames="CustomerId"
+                AutoGenerateDeleteButton="True"
+                AutoGenerateEditButton="True"
+                OnRowDeleting="gvCustomers_RowDeleting"
+                OnRowEditing="gvCustomers_RowEditing"
+                OnRowCancelingEdit="gvCustomers_RowCancelingEdit"
+                OnRowUpdating="gvCustomers_RowUpdating">
+
+                <Columns>
+
+                    <asp:BoundField DataField="CustomerId"
+                        HeaderText="ID"
+                        ReadOnly="True" />
+
+                    <asp:BoundField DataField="CustomerName"
+                        HeaderText="Customer Name" />
+
+                    <asp:BoundField DataField="Email"
+                        HeaderText="Email" />
+
+                    <asp:BoundField DataField="Mobile"
+                        HeaderText="Mobile" />
+
+                    <asp:BoundField DataField="City"
+                        HeaderText="City" />
+
+                    <asp:BoundField DataField="State"
+                        HeaderText="State" />
+
+                    <asp:BoundField DataField="Status"
+                        HeaderText="Status" />
+
+                    <asp:BoundField DataField="Address"
+                        HeaderText="Address" />
+
+                </Columns>
+
+            </asp:GridView>
+
+        </div>
+
+    </div>
+
+</div>
+
+</asp:Content>

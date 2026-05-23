@@ -1,0 +1,766 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|c:\\users\\adimin\\source\\repos\\finovaerp\\finovaerp\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\masterpages\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\masterpages\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\pages\\reports.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\pages\\reports.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\pages\\customers.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\pages\\customers.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\pages\\orders.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\pages\\orders.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\products.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\products.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\calculatorhistory.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\calculatorhistory.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\reports\\investmentreport.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\reports\\investmentreport.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\reports\\emireport.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\reports\\emireport.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\reports\\taxreport.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\reports\\taxreport.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\reports\\retirementreport.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\reports\\retirementreport.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\products.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\products.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\pages\\products.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\pages\\products.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\reports\\retirementreport.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\reports\\retirementreport.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\reports\\emireport.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\reports\\emireport.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\reports\\taxreport.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\reports\\taxreport.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\reports\\investmentreport.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\reports\\investmentreport.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\calculators.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\calculators.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\pages\\orders.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\pages\\orders.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\calculatorhistory.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\calculatorhistory.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\calculators.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\calculators.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\pages\\customers.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\pages\\customers.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\usercontrols\\sidebar.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\usercontrols\\sidebar.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\pages\\reports.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\pages\\reports.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\pages\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\pages\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\pages\\dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\pages\\dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\pages\\users.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\pages\\users.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\pages\\users.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\pages\\users.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\pages\\dashboard.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\pages\\dashboard.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\masterpages\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\masterpages\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\usercontrols\\footer.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\usercontrols\\footer.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\masterpages\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\masterpages\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\logout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\logout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\logout.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\logout.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\pages\\settings.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\pages\\settings.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\usercontrols\\header.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\usercontrols\\header.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\finovaerp\\dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A660B9-9B4C-4195-82D9-68EFA58A80D0}|FinovaERP\\FinovaERP.csproj|solutionrelative:finovaerp\\dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 16,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Site.Master",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\MasterPages\\Site.Master",
+              "RelativeDocumentMoniker": "FinovaERP\\MasterPages\\Site.Master",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\MasterPages\\Site.Master",
+              "RelativeToolTip": "FinovaERP\\MasterPages\\Site.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-20T07:46:11.9Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\css\\style.css",
+              "RelativeDocumentMoniker": "FinovaERP\\css\\style.css",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\css\\style.css",
+              "RelativeToolTip": "FinovaERP\\css\\style.css",
+              "ViewState": "AgIAAHABAAAAAAAAAAAYwG0BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-20T07:46:34.442Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Products.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Products.aspx.cs",
+              "RelativeDocumentMoniker": "FinovaERP\\Products.aspx.cs",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Products.aspx.cs",
+              "RelativeToolTip": "FinovaERP\\Products.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T11:09:15.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Products.aspx",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Products.aspx",
+              "RelativeDocumentMoniker": "FinovaERP\\Products.aspx",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Products.aspx",
+              "RelativeToolTip": "FinovaERP\\Products.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-22T11:08:13.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RetirementReport.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Reports\\RetirementReport.aspx.cs",
+              "RelativeDocumentMoniker": "FinovaERP\\Reports\\RetirementReport.aspx.cs",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Reports\\RetirementReport.aspx.cs",
+              "RelativeToolTip": "FinovaERP\\Reports\\RetirementReport.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T11:00:12.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TaxReport.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Reports\\TaxReport.aspx.cs",
+              "RelativeDocumentMoniker": "FinovaERP\\Reports\\TaxReport.aspx.cs",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Reports\\TaxReport.aspx.cs",
+              "RelativeToolTip": "FinovaERP\\Reports\\TaxReport.aspx.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAQwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T10:55:31.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EMIReport.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Reports\\EMIReport.aspx.cs",
+              "RelativeDocumentMoniker": "FinovaERP\\Reports\\EMIReport.aspx.cs",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Reports\\EMIReport.aspx.cs",
+              "RelativeToolTip": "FinovaERP\\Reports\\EMIReport.aspx.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAlwFIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T10:53:17.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "InvestmentReport.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Reports\\InvestmentReport.aspx.cs",
+              "RelativeDocumentMoniker": "FinovaERP\\Reports\\InvestmentReport.aspx.cs",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Reports\\InvestmentReport.aspx.cs",
+              "RelativeToolTip": "FinovaERP\\Reports\\InvestmentReport.aspx.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T10:48:39.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RetirementReport.aspx",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Reports\\RetirementReport.aspx",
+              "RelativeDocumentMoniker": "FinovaERP\\Reports\\RetirementReport.aspx",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Reports\\RetirementReport.aspx",
+              "RelativeToolTip": "FinovaERP\\Reports\\RetirementReport.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-22T10:47:44.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TaxReport.aspx",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Reports\\TaxReport.aspx",
+              "RelativeDocumentMoniker": "FinovaERP\\Reports\\TaxReport.aspx",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Reports\\TaxReport.aspx",
+              "RelativeToolTip": "FinovaERP\\Reports\\TaxReport.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-22T10:47:19.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EMIReport.aspx",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Reports\\EMIReport.aspx",
+              "RelativeDocumentMoniker": "FinovaERP\\Reports\\EMIReport.aspx",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Reports\\EMIReport.aspx",
+              "RelativeToolTip": "FinovaERP\\Reports\\EMIReport.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-22T10:46:57.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InvestmentReport.aspx",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Reports\\InvestmentReport.aspx",
+              "RelativeDocumentMoniker": "FinovaERP\\Reports\\InvestmentReport.aspx",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Reports\\InvestmentReport.aspx",
+              "RelativeToolTip": "FinovaERP\\Reports\\InvestmentReport.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-22T10:46:25.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.aspx",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Index.aspx",
+              "RelativeDocumentMoniker": "FinovaERP\\Index.aspx",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Index.aspx",
+              "RelativeToolTip": "FinovaERP\\Index.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-20T07:46:47.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "About.aspx",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\About.aspx",
+              "RelativeDocumentMoniker": "FinovaERP\\About.aspx",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\About.aspx",
+              "RelativeToolTip": "FinovaERP\\About.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-22T11:42:24.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Products.aspx",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Pages\\Products.aspx",
+              "RelativeDocumentMoniker": "FinovaERP\\Pages\\Products.aspx",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Pages\\Products.aspx",
+              "RelativeToolTip": "FinovaERP\\Pages\\Products.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-21T04:55:59.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Orders.aspx",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Pages\\Orders.aspx",
+              "RelativeDocumentMoniker": "FinovaERP\\Pages\\Orders.aspx",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Pages\\Orders.aspx",
+              "RelativeToolTip": "FinovaERP\\Pages\\Orders.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-21T04:56:22.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Calculators.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Calculators.aspx.cs",
+              "RelativeDocumentMoniker": "FinovaERP\\Calculators.aspx.cs",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Calculators.aspx.cs",
+              "RelativeToolTip": "FinovaERP\\Calculators.aspx.cs",
+              "ViewState": "AgIAAM0AAAAAAAAAAAAmwPcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T07:21:40.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CalculatorHistory.aspx",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\CalculatorHistory.aspx",
+              "RelativeDocumentMoniker": "FinovaERP\\CalculatorHistory.aspx",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\CalculatorHistory.aspx",
+              "RelativeToolTip": "FinovaERP\\CalculatorHistory.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-22T09:10:23.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Calculators.aspx",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Calculators.aspx",
+              "RelativeDocumentMoniker": "FinovaERP\\Calculators.aspx",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Calculators.aspx",
+              "RelativeToolTip": "FinovaERP\\Calculators.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-22T07:19:45.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Reports.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Pages\\Reports.aspx.cs",
+              "RelativeDocumentMoniker": "FinovaERP\\Pages\\Reports.aspx.cs",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Pages\\Reports.aspx.cs",
+              "RelativeToolTip": "FinovaERP\\Pages\\Reports.aspx.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAowHMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T11:52:21.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CalculatorHistory.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\CalculatorHistory.aspx.cs",
+              "RelativeDocumentMoniker": "FinovaERP\\CalculatorHistory.aspx.cs",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\CalculatorHistory.aspx.cs",
+              "RelativeToolTip": "FinovaERP\\CalculatorHistory.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T09:10:28.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Dashboard.aspx",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Pages\\Dashboard.aspx",
+              "RelativeDocumentMoniker": "FinovaERP\\Pages\\Dashboard.aspx",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Pages\\Dashboard.aspx",
+              "RelativeToolTip": "FinovaERP\\Pages\\Dashboard.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-21T04:55:25.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Reports.aspx",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Pages\\Reports.aspx",
+              "RelativeDocumentMoniker": "FinovaERP\\Pages\\Reports.aspx",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Pages\\Reports.aspx",
+              "RelativeToolTip": "FinovaERP\\Pages\\Reports.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-21T04:57:08.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Dashboard.aspx",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Dashboard.aspx",
+              "RelativeDocumentMoniker": "FinovaERP\\Dashboard.aspx",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Dashboard.aspx",
+              "RelativeToolTip": "FinovaERP\\Dashboard.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-20T11:14:36.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Customers.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Pages\\Customers.aspx.cs",
+              "RelativeDocumentMoniker": "FinovaERP\\Pages\\Customers.aspx.cs",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Pages\\Customers.aspx.cs",
+              "RelativeToolTip": "FinovaERP\\Pages\\Customers.aspx.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T06:32:29.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "FinovaERP\\Login.aspx.cs",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Login.aspx.cs",
+              "RelativeToolTip": "FinovaERP\\Login.aspx.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwCkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T11:06:15.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Sidebar.ascx",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\UserControls\\Sidebar.ascx",
+              "RelativeDocumentMoniker": "FinovaERP\\UserControls\\Sidebar.ascx",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\UserControls\\Sidebar.ascx",
+              "RelativeToolTip": "FinovaERP\\UserControls\\Sidebar.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-05-20T12:18:06.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Login.aspx",
+              "RelativeDocumentMoniker": "FinovaERP\\Login.aspx",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Login.aspx",
+              "RelativeToolTip": "FinovaERP\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-20T09:32:37.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Register.aspx",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Register.aspx",
+              "RelativeDocumentMoniker": "FinovaERP\\Register.aspx",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Register.aspx",
+              "RelativeToolTip": "FinovaERP\\Register.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-20T09:43:53.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Dashboard.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Pages\\Dashboard.aspx.cs",
+              "RelativeDocumentMoniker": "FinovaERP\\Pages\\Dashboard.aspx.cs",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Pages\\Dashboard.aspx.cs",
+              "RelativeToolTip": "FinovaERP\\Pages\\Dashboard.aspx.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T12:13:39.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Orders.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Pages\\Orders.aspx.cs",
+              "RelativeDocumentMoniker": "FinovaERP\\Pages\\Orders.aspx.cs",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Pages\\Orders.aspx.cs",
+              "RelativeToolTip": "FinovaERP\\Pages\\Orders.aspx.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwBUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T05:57:13.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Customers.aspx",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Pages\\Customers.aspx",
+              "RelativeDocumentMoniker": "FinovaERP\\Pages\\Customers.aspx",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Pages\\Customers.aspx",
+              "RelativeToolTip": "FinovaERP\\Pages\\Customers.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-21T04:56:47.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Register.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Register.aspx.cs",
+              "RelativeDocumentMoniker": "FinovaERP\\Register.aspx.cs",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Register.aspx.cs",
+              "RelativeToolTip": "FinovaERP\\Register.aspx.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T10:31:26.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Admin.Master",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\MasterPages\\Admin.Master",
+              "RelativeDocumentMoniker": "FinovaERP\\MasterPages\\Admin.Master",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\MasterPages\\Admin.Master",
+              "RelativeToolTip": "FinovaERP\\MasterPages\\Admin.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-21T05:15:13.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Users.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Pages\\Users.aspx.cs",
+              "RelativeDocumentMoniker": "FinovaERP\\Pages\\Users.aspx.cs",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Pages\\Users.aspx.cs",
+              "RelativeToolTip": "FinovaERP\\Pages\\Users.aspx.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAwwEsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T11:37:10.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Users.aspx",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Pages\\Users.aspx",
+              "RelativeDocumentMoniker": "FinovaERP\\Pages\\Users.aspx",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Pages\\Users.aspx",
+              "RelativeToolTip": "FinovaERP\\Pages\\Users.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-21T11:35:06.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Footer.ascx",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\UserControls\\Footer.ascx",
+              "RelativeDocumentMoniker": "FinovaERP\\UserControls\\Footer.ascx",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\UserControls\\Footer.ascx",
+              "RelativeToolTip": "FinovaERP\\UserControls\\Footer.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-05-20T12:17:42.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Header.ascx",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\UserControls\\Header.ascx",
+              "RelativeDocumentMoniker": "FinovaERP\\UserControls\\Header.ascx",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\UserControls\\Header.ascx",
+              "RelativeToolTip": "FinovaERP\\UserControls\\Header.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-05-20T12:17:14.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Dashboard.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Pages\\Dashboard.aspx.designer.cs",
+              "RelativeDocumentMoniker": "FinovaERP\\Pages\\Dashboard.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Pages\\Dashboard.aspx.designer.cs",
+              "RelativeToolTip": "FinovaERP\\Pages\\Dashboard.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T12:16:12.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Dashboard.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Dashboard.aspx.cs",
+              "RelativeDocumentMoniker": "FinovaERP\\Dashboard.aspx.cs",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Dashboard.aspx.cs",
+              "RelativeToolTip": "FinovaERP\\Dashboard.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T11:15:10.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Web.config",
+              "RelativeDocumentMoniker": "FinovaERP\\Web.config",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Web.config",
+              "RelativeToolTip": "FinovaERP\\Web.config",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-05-20T07:10:14.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Site.Master.cs",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\MasterPages\\Site.Master.cs",
+              "RelativeDocumentMoniker": "FinovaERP\\MasterPages\\Site.Master.cs",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\MasterPages\\Site.Master.cs",
+              "RelativeToolTip": "FinovaERP\\MasterPages\\Site.Master.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T07:51:10.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Settings.aspx",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Pages\\Settings.aspx",
+              "RelativeDocumentMoniker": "FinovaERP\\Pages\\Settings.aspx",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Pages\\Settings.aspx",
+              "RelativeToolTip": "FinovaERP\\Pages\\Settings.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-21T04:57:26.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Logout.aspx",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Logout.aspx",
+              "RelativeDocumentMoniker": "FinovaERP\\Logout.aspx",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Logout.aspx",
+              "RelativeToolTip": "FinovaERP\\Logout.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-20T11:51:33.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Logout.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Logout.aspx.cs",
+              "RelativeDocumentMoniker": "FinovaERP\\Logout.aspx.cs",
+              "ToolTip": "C:\\Users\\ADIMIN\\source\\repos\\FinovaERP\\FinovaERP\\Logout.aspx.cs",
+              "RelativeToolTip": "FinovaERP\\Logout.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T12:03:50.63Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
