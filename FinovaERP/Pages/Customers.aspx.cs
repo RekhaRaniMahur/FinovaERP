@@ -14,12 +14,6 @@ namespace FinovaERP.Pages
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            // LOGIN SECURITY
-
-            if (Session["UserName"] == null)
-            {
-                Response.Redirect("~/Login.aspx");
-            }
 
             if (!IsPostBack)
             {
@@ -28,339 +22,297 @@ namespace FinovaERP.Pages
         }
 
         // LOAD CUSTOMERS
-
         void LoadCustomers()
         {
-            string cs =
-            ConfigurationManager.ConnectionStrings["FinovaDB"].ConnectionString;
-
-            SqlConnection con =
-            new SqlConnection(cs);
-
-            SqlDataAdapter da =
-            new SqlDataAdapter(
-            "SELECT * FROM Customers ORDER BY CustomerId DESC",
-            con);
-
-            DataTable dt =
-            new DataTable();
-
-            da.Fill(dt);
-
-            gvCustomers.DataSource = dt;
-
-            gvCustomers.DataBind();
+            string cs = ConfigurationManager.ConnectionStrings["FinovaDB"].ConnectionString;
+            using (SqlConnection con = new SqlConnection(cs))
+            {
+                SqlDataAdapter da = new SqlDataAdapter("SELECT * FROM Customers ORDER BY CustomerId DESC", con);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+                gvCustomers.DataSource = dt;
+                gvCustomers.DataBind();
+            }
         }
 
         // ADD CUSTOMER
-
         protected void btnAdd_Click(object sender, EventArgs e)
         {
             try
             {
-                string cs =
-                ConfigurationManager.ConnectionStrings["FinovaDB"].ConnectionString;
+                // Validation
+                if (string.IsNullOrEmpty(txtCustomerName.Text))
+                {
+                    ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Please enter customer name');", true);
+                    return;
+                }
+                if (string.IsNullOrEmpty(txtEmail.Text))
+                {
+                    ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Please enter email');", true);
+                    return;
+                }
+                if (string.IsNullOrEmpty(txtMobile.Text))
+                {
+                    ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Please enter mobile number');", true);
+                    return;
+                }
 
-                SqlConnection con =
-                new SqlConnection(cs);
+                string cs = ConfigurationManager.ConnectionStrings["FinovaDB"].ConnectionString;
+                using (SqlConnection con = new SqlConnection(cs))
+                {
+                    SqlCommand cmd = new SqlCommand(@"
+                        INSERT INTO Customers
+                        (
+                            CustomerName,
+                            Email,
+                            Mobile,
+                            City,
+                            State,
+                            Status,
+                            Address,
+                            CreatedDate
+                        )
+                        VALUES
+                        (
+                            @CustomerName,
+                            @Email,
+                            @Mobile,
+                            @City,
+                            @State,
+                            @Status,
+                            @Address,
+                            @CreatedDate
+                        )", con);
 
-                SqlCommand cmd =
-                new SqlCommand(@"
-                INSERT INTO Customers
-                (
-                    CustomerName,
-                    Email,
-                    Mobile,
-                    City,
-                    State,
-                    Status,
-                    Address
-                )
-                VALUES
-                (
-                    @CustomerName,
-                    @Email,
-                    @Mobile,
-                    @City,
-                    @State,
-                    @Status,
-                    @Address
-                )", con);
+                    cmd.Parameters.AddWithValue("@CustomerName", txtCustomerName.Text.Trim());
+                    cmd.Parameters.AddWithValue("@Email", txtEmail.Text.Trim());
+                    cmd.Parameters.AddWithValue("@Mobile", txtMobile.Text.Trim());
+                    cmd.Parameters.AddWithValue("@City", string.IsNullOrEmpty(txtCity.Text) ? "" : txtCity.Text.Trim());
+                    cmd.Parameters.AddWithValue("@State", string.IsNullOrEmpty(txtState.Text) ? "" : txtState.Text.Trim());
+                    cmd.Parameters.AddWithValue("@Status", ddlStatus.SelectedValue);
+                    cmd.Parameters.AddWithValue("@Address", string.IsNullOrEmpty(txtAddress.Text) ? "" : txtAddress.Text.Trim());
+                    cmd.Parameters.AddWithValue("@CreatedDate", DateTime.Now);
 
-                cmd.Parameters.AddWithValue(
-                "@CustomerName",
-                txtCustomerName.Text);
-
-                cmd.Parameters.AddWithValue(
-                "@Email",
-                txtEmail.Text);
-
-                cmd.Parameters.AddWithValue(
-                "@Mobile",
-                txtMobile.Text);
-
-                cmd.Parameters.AddWithValue(
-                "@City",
-                txtCity.Text);
-
-                cmd.Parameters.AddWithValue(
-                "@State",
-                txtState.Text);
-
-                cmd.Parameters.AddWithValue(
-                "@Status",
-                ddlStatus.SelectedValue);
-
-                cmd.Parameters.AddWithValue(
-                "@Address",
-                txtAddress.Text);
-
-                con.Open();
-
-                cmd.ExecuteNonQuery();
-
-                con.Close();
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+                    con.Close();
+                }
 
                 LoadCustomers();
-
                 ClearFields();
 
-                Response.Write(
-                "<script>alert('Customer Added Successfully')</script>");
+                ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Customer Added Successfully');", true);
             }
             catch (Exception ex)
             {
-                Response.Write(ex.Message);
+                ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Error: " + ex.Message.Replace("'", "") + "');", true);
             }
         }
 
-        // CLEAR
+        // UPDATE CUSTOMER
+        protected void btnUpdate_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                int id = Convert.ToInt32(hfCustomerId.Value);
 
+                string cs = ConfigurationManager.ConnectionStrings["FinovaDB"].ConnectionString;
+                using (SqlConnection con = new SqlConnection(cs))
+                {
+                    SqlCommand cmd = new SqlCommand(@"
+                        UPDATE Customers 
+                        SET 
+                            CustomerName = @CustomerName,
+                            Email = @Email,
+                            Mobile = @Mobile,
+                            City = @City,
+                            State = @State,
+                            Status = @Status,
+                            Address = @Address
+                        WHERE CustomerId = @CustomerId", con);
+
+                    cmd.Parameters.AddWithValue("@CustomerName", txtCustomerName.Text.Trim());
+                    cmd.Parameters.AddWithValue("@Email", txtEmail.Text.Trim());
+                    cmd.Parameters.AddWithValue("@Mobile", txtMobile.Text.Trim());
+                    cmd.Parameters.AddWithValue("@City", string.IsNullOrEmpty(txtCity.Text) ? "" : txtCity.Text.Trim());
+                    cmd.Parameters.AddWithValue("@State", string.IsNullOrEmpty(txtState.Text) ? "" : txtState.Text.Trim());
+                    cmd.Parameters.AddWithValue("@Status", ddlStatus.SelectedValue);
+                    cmd.Parameters.AddWithValue("@Address", string.IsNullOrEmpty(txtAddress.Text) ? "" : txtAddress.Text.Trim());
+                    cmd.Parameters.AddWithValue("@CustomerId", id);
+
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+                    con.Close();
+                }
+
+                LoadCustomers();
+                ClearFields();
+                hfCustomerId.Value = "0";
+
+                // Hide update buttons and show add button
+                btnAdd.Visible = true;
+                btnUpdate.Visible = false;
+                btnCancel.Visible = false;
+
+                ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Customer Updated Successfully');", true);
+            }
+            catch (Exception ex)
+            {
+                ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Error: " + ex.Message.Replace("'", "") + "');", true);
+            }
+        }
+
+        // CANCEL UPDATE
+        protected void btnCancel_Click(object sender, EventArgs e)
+        {
+            ClearFields();
+            hfCustomerId.Value = "0";
+            btnAdd.Visible = true;
+            btnUpdate.Visible = false;
+            btnCancel.Visible = false;
+        }
+
+        // CLEAR FIELDS
         void ClearFields()
         {
             txtCustomerName.Text = "";
-
             txtEmail.Text = "";
-
             txtMobile.Text = "";
-
             txtCity.Text = "";
-
             txtState.Text = "";
-
             txtAddress.Text = "";
-
+            txtPincode.Text = "";
             ddlStatus.SelectedIndex = 0;
+            txtSearch.Text = "";
         }
 
         // RESET
-
         protected void btnReset_Click(object sender, EventArgs e)
         {
             ClearFields();
+            hfCustomerId.Value = "0";
+            btnAdd.Visible = true;
+            btnUpdate.Visible = false;
+            btnCancel.Visible = false;
         }
 
         // SEARCH
-
         protected void btnSearch_Click(object sender, EventArgs e)
         {
-            string cs =
-            ConfigurationManager.ConnectionStrings["FinovaDB"].ConnectionString;
+            string cs = ConfigurationManager.ConnectionStrings["FinovaDB"].ConnectionString;
+            using (SqlConnection con = new SqlConnection(cs))
+            {
+                SqlDataAdapter da = new SqlDataAdapter(@"
+                    SELECT * FROM Customers
+                    WHERE CustomerName LIKE '%'+@Search+'%'
+                    OR Email LIKE '%'+@Search+'%'
+                    OR Mobile LIKE '%'+@Search+'%'
+                    ORDER BY CustomerId DESC", con);
 
-            SqlConnection con =
-            new SqlConnection(cs);
-
-            SqlDataAdapter da =
-            new SqlDataAdapter(@"
-
-            SELECT * FROM Customers
-
-            WHERE CustomerName LIKE '%'+@Search+'%'
-            OR Email LIKE '%'+@Search+'%'
-            OR Mobile LIKE '%'+@Search+'%'
-
-            ORDER BY CustomerId DESC
-
-            ", con);
-
-            da.SelectCommand.Parameters.AddWithValue(
-            "@Search",
-            txtSearch.Text);
-
-            DataTable dt =
-            new DataTable();
-
-            da.Fill(dt);
-
-            gvCustomers.DataSource = dt;
-
-            gvCustomers.DataBind();
+                da.SelectCommand.Parameters.AddWithValue("@Search", txtSearch.Text.Trim());
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+                gvCustomers.DataSource = dt;
+                gvCustomers.DataBind();
+            }
         }
 
         // SHOW ALL
-
         protected void btnShowAll_Click(object sender, EventArgs e)
         {
+            txtSearch.Text = "";
             LoadCustomers();
         }
 
         // DELETE
-
-        protected void gvCustomers_RowDeleting(
-        object sender,
-        GridViewDeleteEventArgs e)
+        protected void gvCustomers_RowDeleting(object sender, GridViewDeleteEventArgs e)
         {
-            string cs =
-            ConfigurationManager.ConnectionStrings["FinovaDB"].ConnectionString;
+            try
+            {
+                string cs = ConfigurationManager.ConnectionStrings["FinovaDB"].ConnectionString;
+                int id = Convert.ToInt32(gvCustomers.DataKeys[e.RowIndex].Value);
 
-            SqlConnection con =
-            new SqlConnection(cs);
+                using (SqlConnection con = new SqlConnection(cs))
+                {
+                    SqlCommand cmd = new SqlCommand("DELETE FROM Customers WHERE CustomerId=@CustomerId", con);
+                    cmd.Parameters.AddWithValue("@CustomerId", id);
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+                    con.Close();
+                }
 
-            int id =
-            Convert.ToInt32(
-            gvCustomers.DataKeys[e.RowIndex].Value);
+                LoadCustomers();
+                ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Customer Deleted Successfully');", true);
+            }
+            catch (Exception ex)
+            {
+                ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Error: " + ex.Message.Replace("'", "") + "');", true);
+            }
+        }
 
-            SqlCommand cmd =
-            new SqlCommand(
-            "DELETE FROM Customers WHERE CustomerId=@CustomerId",
-            con);
+        // EDIT - GRIDVIEW ROW COMMAND
+        protected void gvCustomers_RowCommand(object sender, GridViewCommandEventArgs e)
+        {
+            if (e.CommandName == "EditCustomer")
+            {
+                int id = Convert.ToInt32(e.CommandArgument);
+                LoadCustomerForEdit(id);
+            }
+        }
 
-            cmd.Parameters.AddWithValue(
-            "@CustomerId",
-            id);
+        // LOAD CUSTOMER DATA FOR EDITING
+        void LoadCustomerForEdit(int id)
+        {
+            string cs = ConfigurationManager.ConnectionStrings["FinovaDB"].ConnectionString;
+            using (SqlConnection con = new SqlConnection(cs))
+            {
+                SqlCommand cmd = new SqlCommand("SELECT * FROM Customers WHERE CustomerId = @CustomerId", con);
+                cmd.Parameters.AddWithValue("@CustomerId", id);
+                con.Open();
+                SqlDataReader dr = cmd.ExecuteReader();
 
-            con.Open();
+                if (dr.Read())
+                {
+                    txtCustomerName.Text = dr["CustomerName"].ToString();
+                    txtEmail.Text = dr["Email"].ToString();
+                    txtMobile.Text = dr["Mobile"].ToString();
+                    txtCity.Text = dr["City"].ToString();
+                    txtState.Text = dr["State"].ToString();
+                    txtPincode.Text = dr["Pincode"] != DBNull.Value ? dr["Pincode"].ToString() : "";
+                    txtAddress.Text = dr["Address"].ToString();
+                    ddlStatus.SelectedValue = dr["Status"].ToString();
+                    hfCustomerId.Value = id.ToString();
 
-            cmd.ExecuteNonQuery();
+                    // Hide add button and show update/cancel buttons
+                    btnAdd.Visible = false;
+                    btnUpdate.Visible = true;
+                    btnCancel.Visible = true;
+                }
+                con.Close();
+            }
+        }
 
-            con.Close();
-
+        // EDIT (OLD METHOD - KEPT FOR COMPATIBILITY)
+        protected void gvCustomers_RowEditing(object sender, GridViewEditEventArgs e)
+        {
+            // This method is kept for compatibility but we are using RowCommand instead
+            // You can remove this if not needed
+            gvCustomers.EditIndex = -1;
             LoadCustomers();
         }
 
-        // EDIT
-
-        protected void gvCustomers_RowEditing(
-        object sender,
-        GridViewEditEventArgs e)
-        {
-            gvCustomers.EditIndex = e.NewEditIndex;
-
-            LoadCustomers();
-        }
-
-        // CANCEL
-
-        protected void gvCustomers_RowCancelingEdit(
-        object sender,
-        GridViewCancelEditEventArgs e)
+        // CANCEL EDIT (OLD METHOD - KEPT FOR COMPATIBILITY)
+        protected void gvCustomers_RowCancelingEdit(object sender, GridViewCancelEditEventArgs e)
         {
             gvCustomers.EditIndex = -1;
-
             LoadCustomers();
         }
 
-        // UPDATE
-
-        protected void gvCustomers_RowUpdating(
-        object sender,
-        GridViewUpdateEventArgs e)
+        // UPDATE (OLD METHOD - KEPT FOR COMPATIBILITY)
+        protected void gvCustomers_RowUpdating(object sender, GridViewUpdateEventArgs e)
         {
-            string cs =
-            ConfigurationManager.ConnectionStrings["FinovaDB"].ConnectionString;
-
-            SqlConnection con =
-            new SqlConnection(cs);
-
-            int id =
-            Convert.ToInt32(
-            gvCustomers.DataKeys[e.RowIndex].Value);
-
-            string customerName =
-            ((TextBox)gvCustomers.Rows[e.RowIndex]
-            .Cells[1].Controls[0]).Text;
-
-            string email =
-            ((TextBox)gvCustomers.Rows[e.RowIndex]
-            .Cells[2].Controls[0]).Text;
-
-            string mobile =
-            ((TextBox)gvCustomers.Rows[e.RowIndex]
-            .Cells[3].Controls[0]).Text;
-
-            string city =
-            ((TextBox)gvCustomers.Rows[e.RowIndex]
-            .Cells[4].Controls[0]).Text;
-
-            string state =
-            ((TextBox)gvCustomers.Rows[e.RowIndex]
-            .Cells[5].Controls[0]).Text;
-
-            string status =
-            ((TextBox)gvCustomers.Rows[e.RowIndex]
-            .Cells[6].Controls[0]).Text;
-
-            string address =
-            ((TextBox)gvCustomers.Rows[e.RowIndex]
-            .Cells[7].Controls[0]).Text;
-
-            SqlCommand cmd =
-            new SqlCommand(@"
-
-            UPDATE Customers SET
-
-            CustomerName=@CustomerName,
-            Email=@Email,
-            Mobile=@Mobile,
-            City=@City,
-            State=@State,
-            Status=@Status,
-            Address=@Address
-
-            WHERE CustomerId=@CustomerId
-
-            ", con);
-
-            cmd.Parameters.AddWithValue(
-            "@CustomerName",
-            customerName);
-
-            cmd.Parameters.AddWithValue(
-            "@Email",
-            email);
-
-            cmd.Parameters.AddWithValue(
-            "@Mobile",
-            mobile);
-
-            cmd.Parameters.AddWithValue(
-            "@City",
-            city);
-
-            cmd.Parameters.AddWithValue(
-            "@State",
-            state);
-
-            cmd.Parameters.AddWithValue(
-            "@Status",
-            status);
-
-            cmd.Parameters.AddWithValue(
-            "@Address",
-            address);
-
-            cmd.Parameters.AddWithValue(
-            "@CustomerId",
-            id);
-
-            con.Open();
-
-            cmd.ExecuteNonQuery();
-
-            con.Close();
-
+            // This method is kept for compatibility but we are using separate form for editing
             gvCustomers.EditIndex = -1;
-
             LoadCustomers();
         }
     }

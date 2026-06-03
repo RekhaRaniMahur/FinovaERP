@@ -39,7 +39,7 @@ namespace FinovaERP
             {
                 Session["UserEmail"] = txtEmail.Text;
 
-                Response.Redirect("Dashboard.aspx");
+                Response.Redirect("Pages/Dashboard.aspx");
             }
             else
             {
