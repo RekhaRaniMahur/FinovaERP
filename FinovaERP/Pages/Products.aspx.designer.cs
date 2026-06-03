@@ -42,6 +42,15 @@ namespace FinovaERP.Pages
         protected global::System.Web.UI.WebControls.Button btnShowAll;
 
         /// <summary>
+        /// gvProducts control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView gvProducts;
+
+        /// <summary>
         /// txtProductName control.
         /// </summary>
         /// <remarks>
@@ -60,6 +69,15 @@ namespace FinovaERP.Pages
         protected global::System.Web.UI.WebControls.TextBox txtProductCode;
 
         /// <summary>
+        /// txtSKU control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtSKU;
+
+        /// <summary>
         /// txtBrand control.
         /// </summary>
         /// <remarks>
@@ -67,6 +85,15 @@ namespace FinovaERP.Pages
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtBrand;
+
+        /// <summary>
+        /// ddlCategory control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlCategory;
 
         /// <summary>
         /// txtPrice control.
@@ -96,24 +123,6 @@ namespace FinovaERP.Pages
         protected global::System.Web.UI.WebControls.TextBox txtQuantity;
 
         /// <summary>
-        /// ddlCategory control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlCategory;
-
-        /// <summary>
-        /// ddlStatus control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlStatus;
-
-        /// <summary>
         /// ddlStockStatus control.
         /// </summary>
         /// <remarks>
@@ -121,42 +130,6 @@ namespace FinovaERP.Pages
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlStockStatus;
-
-        /// <summary>
-        /// txtSupplier control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSupplier;
-
-        /// <summary>
-        /// txtWarranty control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtWarranty;
-
-        /// <summary>
-        /// txtSKU control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSKU;
-
-        /// <summary>
-        /// txtBarcode control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtBarcode;
 
         /// <summary>
         /// txtGST control.
@@ -175,6 +148,51 @@ namespace FinovaERP.Pages
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtDiscount;
+
+        /// <summary>
+        /// ddlStatus control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlStatus;
+
+        /// <summary>
+        /// txtSupplier control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtSupplier;
+
+        /// <summary>
+        /// txtManufacturer control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtManufacturer;
+
+        /// <summary>
+        /// txtWarranty control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtWarranty;
+
+        /// <summary>
+        /// txtBarcode control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtBarcode;
 
         /// <summary>
         /// txtWeight control.
@@ -202,15 +220,6 @@ namespace FinovaERP.Pages
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtSize;
-
-        /// <summary>
-        /// txtManufacturer control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtManufacturer;
 
         /// <summary>
         /// txtExpiryDate control.
@@ -258,12 +267,12 @@ namespace FinovaERP.Pages
         protected global::System.Web.UI.WebControls.Button btnReset;
 
         /// <summary>
-        /// gvProducts control.
+        /// hfProductId control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView gvProducts;
+        protected global::System.Web.UI.WebControls.HiddenField hfProductId;
     }
 }
